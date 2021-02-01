@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>Lighbox</title>
+    <style>
+           .container{
+            padding: 50px;
+            background-color: #ddd;
+            width: 80%;
+          margin: auto;  
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 10px;
+        }
+        .image img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img lightbox src2 src="images/bike1.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/bike2.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/bike4.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/bike5.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/bike6.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/bike7.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/Z CONCEPT.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/CAR186.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/Car024.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/Car034.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/Car039.jpg" alt="">
+        </div>
+        <div class="image">
+            <img lightbox src2 src="images/f50.jpg" alt="">
+        </div>
+    </div>
+ 
+
+
+
+    <script src="js/lightbox.js"></script>
+
+    <script>
+
+        //lightbox cutomzation
+        lightbox.option( { 
+            backgroundOpacity : .6,
+            imageTransitionTiming : .2, 
+            disableNavigation : false,
+            disableInfo : false,
+            slideShowTiming : 1, 
+        } );
+
+            
+    </script>
+
+</body>
+</html>
